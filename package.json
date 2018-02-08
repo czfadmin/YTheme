@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "publisher": "ZhiFu Chen",
     "engines": {
-        "vscode": "^1.12.0"
+        "vscode": "^1.18.0"
     },
     "categories": [
         "Themes"
