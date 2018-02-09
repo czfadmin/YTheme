@@ -11,12 +11,12 @@
         "Themes"
     ],
     "bugs": {
-		"url": "https://github.com/czfadmin/Atom-One-Dark-Pro/issues"
-	},
+        "url": "https://github.com/czfadmin/Atom-One-Dark-Pro/issues"
+    },
     "repository": {
-		"type": "git",
-		"url": "https://github.com/czfadmin/Atom-One-Dark-Pro"
-	},
+        "type": "git",
+        "url": "https://github.com/czfadmin/Atom-One-Dark-Pro"
+    },
     "icon": "icon.png",
     "contributes": {
         "themes": [
@@ -24,10 +24,14 @@
                 "label": "Atom One Dark Pro",
                 "uiTheme": "vs-dark",
                 "path": "./themes/AtomOneDark-color-theme.json"
+            },
+            {
+                "label": "Atom Not Just A bright Theme",
+                "uiTheme": "vs",
+                "path": "./themes/atom-light-color-theme.json"
             }
         ]
     },
-    
     "keywords": [
         "one dark",
         "onedark",
