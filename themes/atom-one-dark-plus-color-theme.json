@@ -112,11 +112,7 @@
 			"name": "Comments",
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-<<<<<<< HEAD:themes/atom-one-dark-plus-color-theme.json
 				"foreground": "#3f913c"
-=======
-				"foreground": "#5C6370"
->>>>>>> c2419cf2e58eeea84a809a36b82706114444cc71:themes/AtomOneDark-color-theme.json
 			}
 		},
 		{
