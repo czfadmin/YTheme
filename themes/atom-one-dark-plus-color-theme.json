@@ -1,5 +1,5 @@
 {
-	"name": "Atom One Dark Pro",
+	"name": "One Dark Plus",
 	"type": "dark",
 	"colors": {
 		"editor.background": "#191c24",
@@ -112,7 +112,7 @@
 			"name": "Comments",
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#5C6370"
+				"foreground": "#3f913c"
 			}
 		},
 		{

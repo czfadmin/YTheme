@@ -3,7 +3,7 @@
     "displayName": "One Dark Plus",
     "description": "Themes based On Atom",
     "version": "0.0.1",
-    "publisher": "ZhiFu Chen",
+    "publisher": "Chen ZhiFu",
     "engines": {
         "vscode": "^1.18.0"
     },
@@ -23,12 +23,12 @@
             {
                 "label": "Atom One Dark Plus",
                 "uiTheme": "vs-dark",
-                "path": "./themes/AtomOneDark-color-theme.json"
+                "path": "./themes/atom-one-dark-plus-color-theme.json"
             },
             {
                 "label": "Atom One Light Plus",
                 "uiTheme": "vs",
-                "path": "./themes/atom-light-color-theme.json"
+                "path": "./themes/atom-light-plus-color-theme.json"
             }
         ]
     },
@@ -37,6 +37,11 @@
         "onedark",
         "one dark pro",
         "theme",
-        "atom"
+        "atom",
+        "one light",
+        "one light pro",
+        "plus",
+        "one dark plus",
+        "one light plus"
     ]
 }

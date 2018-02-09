@@ -1,7 +1,7 @@
-# Change Log
-All notable changes to the "Atom One Dark Pro" extension will be documented in this file.
+# CHANGELOG
+## 0.0.1 | 2018.2.11
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+None
 
 ## [Unreleased]
 - Initial release

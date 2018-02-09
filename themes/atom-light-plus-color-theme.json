@@ -1,5 +1,5 @@
 {
-	"name": "Atom One Dark Pro",
+	"name": "One Dark Plus",
 	"type": "light",
 	"colors": {
 		"foreground": "#000000",
@@ -11,7 +11,7 @@
 		"activityBar.dropBackground": "#cac8f1d8",
 		"badge.background": "#4d4b4bda",
 		"badge.foreground": "#e9e9e9",
-		"button.background": "#5871EF",
+		"button.background": "#467bb8",
 		"button.foreground": "#FFFFFF",
 		"button.hoverBackground": "#6B83ED",
 		"editorCodeLens.foreground": "#686666",
@@ -24,7 +24,7 @@
 		"editor.background": "#e9e9e9",
 		"editor.lineHighlightBackground": "#c4c4c488",
 		"editor.selectionBackground": "#a5a5a7a2",
-		"editorCursor.foreground": "#010414",
+		"editorCursor.foreground": "#526FFF",
 		"editorGroup.background": "#EAEAEB",
 		"editorGroup.border": "#8b8bc5",
 		"editorGroupHeader.tabsBackground": "#cac4c4",
@@ -38,7 +38,7 @@
 		"editorWidget.background": "#EAEAEB",
 		"editorSuggestWidget.selectedBackground": "#97949494",
 		"editor.selectionHighlightBackground": "#cfbebed2",
-		"editorBracketMatch.background": "#b3a8a8",
+        "editorBracketMatch.background": "#b3a8a8",
 		"input.background": "#d6d5d5",
 		"input.border": "#8787b4",
 		"focusBorder": "#526FFF",
@@ -52,7 +52,7 @@
 		"list.inactiveSelectionForeground": "#232324",
 		"notification.background": "#383535b4",
 		"notification.buttonBackground": "#3f4fa8e7",
-		"notification.infoBackground": "#3f4fa8e7",
+        "notification.infoBackground": "#3f4fa8e7",
 		"pickerGroup.border": "#526FFF",
 		"scrollbarSlider.background": "#4E566680",
 		"scrollbarSlider.activeBackground": "#747D9180",
@@ -78,9 +78,6 @@
 		"titleBar.activeForeground": "#424243",
 		"titleBar.inactiveBackground": "#EAEAEB",
 		"titleBar.inactiveForeground": "#424243",
-		"terminal.ansiBrightYellow": "#9e4a06",
-		"terminal.ansiBrightGreen": "#0c9136",
-		"terminal.foreground": "#000000",
 		"statusBar.debuggingForeground": "#FFFFFF",
 		"extensionButton.prominentBackground": "#3f854de8",
 		"extensionButton.prominentHoverBackground": "#2e9b44",
@@ -90,31 +87,10 @@
 		"peekViewResult.background": "#EAEAEB",
 		"peekViewResult.selectionBackground": "#DBDBDC",
 		"peekView.border": "#292e3a",
-		"peekViewTitle.background": "#e0e0e0",
-		"peekViewEditor.background": "#fffdfd",
+        "peekViewTitle.background": "#e0e0e0",
+        "peekViewEditor.background": "#fffdfd"
 	},
 	"tokenColors": [
-		{
-			"name": "The Source Python",
-			"scope": "source.python",
-			"settings": {
-				"foreground": "#0465a5"
-			}
-		},
-		{
-			"name": "Comment Line Python",
-			"scope": "comment.line",
-			"settings": {
-				"foreground": "#2f6832"
-			}
-		},
-		{
-			"name": "Comment Line number -sign Python",
-			"scope": "comment.line.number-sign.python",
-			"settings": {
-				"foreground": "#2f6832"
-			}
-		},
 		{
 			"name": "Comment",
 			"scope": [
@@ -439,7 +415,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#05709e"
+				"foreground": "#0184BC"
 			}
 		},
 		{
@@ -448,7 +424,7 @@
 				"support.function.any-method"
 			],
 			"settings": {
-				"foreground": "#2b56b4"
+				"foreground": "#4078F2"
 			}
 		},
 		{
@@ -576,6 +552,7 @@
 				"meta.separator"
 			],
 			"settings": {
+				"background": "#373B41",
 				"foreground": "#383A42"
 			}
 		},
@@ -588,14 +565,15 @@
 				"foreground": "#383A42"
 			}
 		},
-		// {
-		// 	"name": "Underline",
-		// 	"scope": [
-		// 		"underline"
-		// 	],
-		// 	"settings": {
-		// 	}
-		// },
+		{
+			"name": "Underline",
+			"scope": [
+				"underline"
+			],
+			"settings": {
+				"text-decoration": "underline"
+			}
+		},
 		{
 			"name": "None",
 			"scope": [
@@ -611,8 +589,8 @@
 				"invalid.deprecated"
 			],
 			"settings": {
-				"foreground": "#000000"
-				// "background": "#F2A60D"
+				"foreground": "#000000",
+				"background": "#F2A60D"
 			}
 		},
 		{
@@ -621,7 +599,8 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "white",
+				"background": "#FF1414"
 			}
 		},
 		{
@@ -763,16 +742,15 @@
 				"foreground": "#383A42"
 			}
 		},
-		// {
-		// 	"name": "Source Gfm Markup",
-		// 	"scope": [
-		// 		"source.gfm markup"
-		// 	],
-		// 	"settings": {
-			
-		// 		"-webkit-font-smoothing": "auto"
-		// 	}
-		// },
+		{
+			"name": "Source Gfm Markup",
+			"scope": [
+				"source.gfm markup"
+			],
+			"settings": {
+				"-webkit-font-smoothing": "auto"
+			}
+		},
 		{
 			"name": "Source Gfm Link Entity",
 			"scope": [
@@ -915,7 +893,7 @@
 				"source.ruby constant.other.symbol > punctuation"
 			],
 			"settings": {
-				"foreground": "#d17a08"
+				"foreground": "inherit"
 			}
 		},
 		{
@@ -996,14 +974,14 @@
 			"name": "[VSCODE-CUSTOM] JSON Property Name",
 			"scope": "support.type.property-name.json",
 			"settings": {
-				"foreground": "#c04439"
+				"foreground": "#E45649"
 			}
 		},
 		{
 			"name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
 			"scope": "support.type.property-name.json punctuation",
 			"settings": {
-				"foreground": "#c04439"
+				"foreground": "#E45649"
 			}
 		},
 		{
@@ -1497,7 +1475,7 @@
 			"name": "[VSCODE-CUSTOM] Python Constants Other",
 			"scope": "source.python constant.other",
 			"settings": {
-				"foreground": "#343d63"
+				"foreground": "#383A42"
 			}
 		},
 		{
@@ -1775,32 +1753,6 @@
 			"scope": "meta.class.php",
 			"settings": {
 				"foreground": "#383A42"
-			}
-		},
-		{
-			"name": "Costom Python Meta Function-call generic python",
-			"scope": [
-				"meta.function-call.generic.python",
-				"meta.function-call.python"
-			],
-			"settings": {
-				"foreground": "#a04e01"
-			}
-		},
-		{
-			"name": "[Custom]Constant Other CapsPython",
-			"scope": "constant.other.caps.python",
-			"settings": {
-				"foreground": "#3a2b4e"
-			}
-		},
-		{
-			"name": "Support Type Property-name.json",
-			"scope": [
-				"support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#c41515"
 			}
 		}
 	]
