@@ -1,7 +1,7 @@
 {
-    "name": "material-theme",
-    "displayName": "Atom One Dark Pro",
-    "description": "Atom's iconic One Dark theme for You",
+    "name": "one-dark-plus",
+    "displayName": "One Dark Plus",
+    "description": "Themes based On Atom",
     "version": "0.0.1",
     "publisher": "ZhiFu Chen",
     "engines": {
@@ -11,23 +11,27 @@
         "Themes"
     ],
     "bugs": {
-		"url": "https://github.com/czfadmin/Atom-One-Dark-Pro/issues"
-	},
+        "url": "https://github.com/czfadmin/Atom-One-Dark-Pro/issues"
+    },
     "repository": {
-		"type": "git",
-		"url": "https://github.com/czfadmin/Atom-One-Dark-Pro"
-	},
+        "type": "git",
+        "url": "https://github.com/czfadmin/Atom-One-Dark-Pro"
+    },
     "icon": "icon.png",
     "contributes": {
         "themes": [
             {
-                "label": "Atom One Dark Pro",
+                "label": "Atom One Dark Plus",
                 "uiTheme": "vs-dark",
                 "path": "./themes/AtomOneDark-color-theme.json"
+            },
+            {
+                "label": "Atom One Light Plus",
+                "uiTheme": "vs",
+                "path": "./themes/atom-light-color-theme.json"
             }
         ]
     },
-    
     "keywords": [
         "one dark",
         "onedark",
