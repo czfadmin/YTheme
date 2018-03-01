@@ -21,9 +21,10 @@
 		"list.hoverBackground": "#5f5c5c34",
 		"sideBar.border": "#252d3fd8",
 		"tab.activeBorder": "#5e4646",
-		"notification.buttonBackground": "#30466de7",
-		"notification.infoBackground": "#30466de7",
-		"editorSuggestWidget.selectedBackground": "#1f1f1f6e",
+		"editorSuggestWidget.selectedBackground": "#70707041",
+        "notifications.background": "#12131df6",
+        "notificationsToast.border": "#0e0c0c54",
+        "notificationsCenterHeader.background": "#171b24",
 		"activityBar.background": "#2F333D",
 		"activityBar.foreground": "#D7DAE0",
 		"activityBarBadge.background": "#4D78CC",
@@ -52,7 +53,6 @@
 		"list.highlightForeground": "#C5C5C5",
 		"list.inactiveSelectionBackground": "#2c313a",
 		"list.inactiveSelectionForeground": "#d7dae0",
-		"notification.background": "#21252b",
 		"peekViewEditor.matchHighlightBackground": "#29244b",
 		"scrollbarSlider.background": "#4E566680",
 		"scrollbarSlider.activeBackground": "#747D9180",
@@ -1016,7 +1016,7 @@
 		},
 		{
 			"name": "use statement for other classes",
-			"scope": "support.other.namespace.use.php,support.other.namespace.use-as.php,support.other.namespace.php,entity.other.alias.php",
+			"scope": "support.other.namespace.use.php,support.other.namespace.use-as.php,support.other.namespace.php,entity.other.alias.php,meta.interface.php",
 			"settings": {
 				"foreground": "#e5c07b"
 			}
@@ -1255,7 +1255,26 @@
 			"settings": {
 				"foreground": "#b267e6"
 			}
+		},
+		{
+			"name": "String interpolation",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#d55fde"
+			}
+		},
+		{
+			"name": "Reset JavaScript string interpolation expression",
+			"scope": [
+				"meta.template.expression"
+			],
+			"settings": {
+				"foreground": "#aab1c0"
+			}
 		}
 	]
-	
 }
