@@ -1295,11 +1295,15 @@
 			}
 		},
 		{
-			"name": "keyword.function.go,entity.name.function.go,keyword.const.go",
-			"scope": "keyword.function.go,entity.name.function.go,keyword.const.go",
+			"name": "go keyword function and entity name and function keyword const",
+			"scope": [
+				"keyword.function.go",
+				"entity.name.function.go",
+				"keyword.const.go"
+			],
 			"settings": {
 				"fontStyle": "italic"
 			}
-		},
+		}
 	]
 }
