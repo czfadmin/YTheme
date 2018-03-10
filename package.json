@@ -2,7 +2,7 @@
     "name": "one-dark-plus",
     "displayName": "One Dark Plus",
     "description": "Themes based On Atom",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "publisher": "ChenZhiFu",
     "engines": {
         "vscode": "^1.18.0"

@@ -9,7 +9,8 @@
 		"badge.background": "#1a1a1a",
 		"badge.foreground": "#ffffff",
 		"button.background": "#404754",
-		"debugToolBar.background": "#21252b",
+		"debugToolBar.background": "#1d2129f6",
+        "debugToolBar.border": "#233f63",
 		"dropdown.background": "#1d1f23",
 		"diffEditor.insertedTextBackground": "#00809B33",
 		"dropdown.border": "#181A1F",
@@ -99,6 +100,13 @@
 	},
 	"tokenColors": [
 		{
+			"name": "support.constant.edge",
+			"scope": "support.constant.edge",
+			"settings": {
+				"foreground": "#d55fdeff"
+			}
+		},
+		{
 			"name": "regexp constant character-class",
 			"scope": "constant.other.character-class.regexp",
 			"settings": {
@@ -130,7 +138,7 @@
 			"name": "Comments",
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#3f913c"
+				"foreground": "#3f8d3c"
 			}
 		},
 		{
@@ -347,7 +355,7 @@
 			"name": "comment",
 			"scope": "comment.line.double-slash,comment.block.documentation",
 			"settings": {
-				"foreground": "#3f913c"
+				"foreground": "#3f8d3c"
 			}
 		},
 		{
@@ -753,14 +761,16 @@
 			"name": "Attribute IDs",
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
-				"foreground": "#52ADF2"
+				"foreground": "#52ADF2",
+				"fontStyle": "normal"
 			}
 		},
 		{
 			"name": "Attribute class",
 			"scope": "entity.other.attribute-name.class.css",
 			"settings": {
-				"foreground": "#D8985F"
+				"foreground": "#D8985F",
+				"fontStyle": "normal"
 			}
 		},
 		{
@@ -952,6 +962,7 @@
 			"name": "Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
+				"background": "#e05252",
 				"foreground": "#FFFFFF"
 			}
 		},
@@ -959,6 +970,7 @@
 			"name": "Broken",
 			"scope": "invalid.broken",
 			"settings": {
+				"background": "#e05252",
 				"foreground": "#FFFFFF"
 			}
 		},
@@ -966,6 +978,7 @@
 			"name": "Deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
+				"background": "#d27b53",
 				"foreground": "#FFFFFF"
 			}
 		},
@@ -973,6 +986,7 @@
 			"name": "Unimplemented",
 			"scope": "invalid.unimplemented",
 			"settings": {
+				"background": "#747369",
 				"foreground": "#FFFFFF"
 			}
 		},
@@ -1303,6 +1317,22 @@
 			],
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "entity name function python and meta functionpython and source python",
+			"scope": [
+				"entity.name.function.python",
+				"meta.function.python"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},{
+			"name": "source.python",
+			"scope":"source.python",
+			"settings": {
+				"foreground": "#b6b6b6"
 			}
 		}
 	]
