@@ -13,10 +13,6 @@ Themes in this extension are modified based on Atom's One Dark and One Light the
 ## CHANGELOG
 [ChANGELOG.MD](https://github.com/czfadmin/Atom-One-Dark-Pro/blob/master/CHANGELOG.md)
 
-### Installing
-
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/ChenZhiFu.one-dark-plus)
-
 ### Customization
 
 If you are using VSCode 1.12+ versions you can customize the colors to your liking, overriding the ones provided by this theme. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
