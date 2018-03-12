@@ -1,4 +1,6 @@
 # CHANGELOG
+## 1.2.1  | 2018.3.12
+
 ## 1.2.0  | 2018.3.11
 ### Improve color scheme
 

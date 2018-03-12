@@ -21,9 +21,8 @@
 		"dropdown.border": "#afafdd",
 		"debugToolBar.background": "#c7c7c7e7",
         "debugToolBar.border": "#727272",
+		"errorForeground": "#e40f0f",
 		"editor.background": "#f8f8f8",
-		"editor.lineHighlightBackground": "#c4c4c488",
-		"editor.selectionBackground": "#d6d6d6e3",
 		"editorCursor.foreground": "#526FFF",
 		"editorGroup.background": "#EAEAEB",
 		"editorGroup.border": "#8b8bc5",
@@ -31,19 +30,20 @@
 		"editorGroupHeader.tabsBackground": "#e2e2e2",
 		"editorLineNumber.foreground": "#69696d",
 		"editorWhitespace.foreground": "#D3D4D5",
-		"editorHoverWidget.background": "#dbdbddea",
 		"editorHoverWidget.border": "#9494c2de",
 		"editorWidget.background": "#EAEAEB",
+		"editor.lineHighlightBackground": "#dfdfdfab",
+        "editor.selectionBackground": "#d8d8d8a2",
 		"editorSuggestWidget.selectedBackground": "#d8d8d8",
 		"editorSuggestWidget.border": "#b1b1b1",
 		"editorSuggestWidget.background": "#e6e6e6f1",
-		"errorForeground": "#e40f0f",
+		"editorHoverWidget.background": "#e0dfdfef",
         "editorActiveLineNumber.foreground": "#a05b0c",
         "editorIndentGuide.background": "#a7a4a4",
         "editorBracketMatch.background": "#dbdadaf1",
         "editor.findMatchHighlightBackground": "#d6d6d6b2",
         "editor.findMatchHighlightBorder": "#e0e0e0",
-        "editor.selectionHighlightBackground": "#d6d6d69a",
+		"editor.selectionHighlightBackground": "#cacaca77",
 		"input.background": "#f0f0f0",
 		"input.border": "#8787b4",
 		"focusBorder": "#526FFF",
@@ -71,17 +71,18 @@
 		"statusBar.noFolderBackground": "#463531",
 		"selection.background": "#bebebead",
 		"scrollbar.shadow": "#2e2d2d",
+		"statusBar.debuggingForeground": "#FFFFFF",
 		"tab.border": "#DBDBDC",
 		"tab.activeBorder": "#327c2f",
 		"tab.activeBackground": "#c2c2c2",
         "tab.activeForeground": "#000000",
         "tab.inactiveBackground": "#dfdfdf",
-        "tab.inactiveForeground": "#7e7e7e",
+		"tab.inactiveForeground": "#7e7e7e",
+		"terminal.ansiBrightYellow": "#d46b14",
 		"titleBar.activeBackground": "#EAEAEB",
 		"titleBar.activeForeground": "#424243",
 		"titleBar.inactiveBackground": "#EAEAEB",
 		"titleBar.inactiveForeground": "#424243",
-		"statusBar.debuggingForeground": "#FFFFFF",
 		"extensionButton.prominentBackground": "#3f854de8",
 		"extensionButton.prominentHoverBackground": "#2e9b44",
 		"panelTitle.activeForeground": "#000000",
@@ -106,7 +107,7 @@
 				"comment"
 			],
 			"settings": {
-				"foreground": "#2f6832"
+				"foreground": "#2b8a1e"
 			}
 		},
 		{
@@ -297,7 +298,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#50A14F"
+				"foreground": "#10910b"
 			}
 		},
 		{
