@@ -27,7 +27,11 @@ Of course, you can easily customize your settings to use it.
 If you download and install the font in your system, you can add this option to have a custom font:
 ```json
 {
+<<<<<<< HEAD
     "editor.fontFamily": " YOUR FONT, Monaco, 'Courier New', monospace"
+=======
+    "editor.fontFamily": "YOUR FONT, Monaco, 'Courier New', monospace"
+>>>>>>> f3187e431d0d3db58d09503c8ccccbcf607e2c86
 }
 ```
 
