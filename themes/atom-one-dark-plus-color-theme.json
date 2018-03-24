@@ -66,7 +66,7 @@
 		"sideBarSectionHeader.background": "#282c34",
 		"statusBar.background": "#21252B",
 		"statusBar.foreground": "#9da5b4",
-		"statusBarItem.hoverBackground": "#2c313a",
+		"statusBarItem.hoverBackground": "#37373fd8",
 		"statusBar.noFolderBackground": "#21252B",
 		"statusBar.debuggingBackground": "#7e0097",
 		"statusBar.debuggingBorder": "#66017a",
@@ -81,8 +81,9 @@
 		"terminal.ansiBlue": "#61AFEF",
 		"terminal.ansiGreen": "#98C379",
 		"terminal.foreground": "#C8C8C8",
+		"terminal.selectionBackground": "#7c7c7c4d",
 		"terminal.ansiYellow": "#B4881D",
-		"terminal.ansiBrightBlack": "#2D3139",
+		"terminal.ansiBrightBlack": "#757575",
 		"terminal.ansiBrightBlue": "#61AFEF",
 		"terminal.ansiBrightGreen": "#98C379",
 		"terminal.ansiBrightRed": "#E06C75",
@@ -636,7 +637,7 @@
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"foreground": "#D55FDE"
+				"foreground": "#b874c5"
 			}
 		},
 		{
@@ -1314,9 +1315,16 @@
 			"scope": [
 				"keyword.function.go",
 				"entity.name.function.go",
-				"keyword.const.go"
+				"keyword.const.go",
+				"keyword.import.go",
+				"keyword.channel.go",
+				"keyword.package.go",
+				"keyword.map.go",
+				"keyword.control.go",
+				"keyword.struct.go"
 			],
 			"settings": {
+				"foreground": "#c674d6",
 				"fontStyle": "italic"
 			}
 		},
@@ -1329,12 +1337,20 @@
 			"settings": {
 				"fontStyle": "italic"
 			}
-		},{
+		},
+		{
 			"name": "source.python",
 			"scope":"source.python",
 			"settings": {
 				"foreground": "#b6b6b6"
 			}
+		},
+		{
+			"name": "variable.other.assignment.go",
+                "scope":"variable.other.assignment.go",
+                "settings": {
+                    "foreground": "#d8707f"
+                }
 		}
 	]
 }
