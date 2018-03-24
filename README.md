@@ -3,7 +3,7 @@
 <!-- [![Beerpay](https://img.shields.io/beerpay/akamud/vscode-theme-onedark.svg)](https://beerpay.io/akamud/vscode-theme-onedark)  
 VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax) theme. Best rated One Dark theme port in the marketplace, **features full Workbench theming**. -->
 
-#### VSCode Themes based on Atom's themes.
+#### These VSCode Theme based on Atom's themes.
 Themes in this extension are modified based on Atom's One Dark and One Light themes, and I'll be bringing some of Atom's theme styles to this extension in the future.
  ## ScreenShots
  ![](https://raw.githubusercontent.com/czfadmin/Atom-One-Dark-Pro/master/screenshots/one-dark-theme-java-screenshot.PNG)
