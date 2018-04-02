@@ -10,7 +10,7 @@
 		"badge.foreground": "#faf9f9",
 		"button.background": "#404754",
 		"debugToolBar.background": "#1d2129f6",
-        "debugToolBar.border": "#233f63",
+		"debugToolBar.border": "#233f63",
 		"dropdown.background": "#1d1f23",
 		"diffEditor.insertedTextBackground": "#00809B33",
 		"dropdown.border": "#181A1F",
@@ -42,7 +42,7 @@
 		"editorGroupHeader.tabsBackground": "#21252B",
 		"editorIndentGuide.background": "#3B4048",
 		"editorWidget.background": "#21252B",
-		"editorActiveLineNumber.foreground": "#d3d3d3",
+		"editorLineNumber.activeForeground": "#d3d3d3",
 		"list.dropBackground": "#31365a96",
 		"list.hoverBackground": "#5f5c5c34",
 		"input.background": "#1d1f23",
@@ -81,9 +81,9 @@
 		"terminal.ansiBlue": "#61AFEF",
 		"terminal.ansiGreen": "#98C379",
 		"terminal.foreground": "#C8C8C8",
+		"terminal.ansiBrightBlack": "#737780",
 		"terminal.selectionBackground": "#7c7c7c4d",
 		"terminal.ansiYellow": "#B4881D",
-		"terminal.ansiBrightBlack": "#757575",
 		"terminal.ansiBrightBlue": "#61AFEF",
 		"terminal.ansiBrightGreen": "#98C379",
 		"terminal.ansiBrightRed": "#E06C75",
@@ -1340,17 +1340,17 @@
 		},
 		{
 			"name": "source.python",
-			"scope":"source.python",
+			"scope": "source.python",
 			"settings": {
 				"foreground": "#b6b6b6"
 			}
 		},
 		{
 			"name": "variable.other.assignment.go",
-                "scope":"variable.other.assignment.go",
-                "settings": {
-                    "foreground": "#d8707f"
-                }
+			"scope": "variable.other.assignment.go",
+			"settings": {
+				"foreground": "#d8707f"
+			}
 		}
 	]
 }
