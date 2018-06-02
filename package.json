@@ -1,6 +1,6 @@
 {
-    "name": "one-dark-plus",
-    "displayName": "One Dark Plus",
+    "name": "ytheme",
+    "displayName": "YTheme",
     "description": "Themes based On Atom",
     "version": "1.2.6",
     "publisher": "ChenZhiFu",
@@ -34,14 +34,9 @@
     },
     "keywords": [
         "one dark",
-        "onedark",
-        "one dark pro",
-        "theme",
         "atom",
         "one light",
-        "one light pro",
-        "plus",
         "one dark plus",
-        "one light plus"
+        "YTheme"
     ]
 }
