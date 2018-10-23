@@ -2,8 +2,8 @@
     "name": "ytheme",
     "displayName": "YTheme",
     "description": "Themes based On Atom",
-    "version": "1.2.6",
-    "publisher": "ChenZhiFu",
+    "version": "1.2.7",
+    "publisher": "zfuchen",
     "engines": {
         "vscode": "^1.18.0"
     },
@@ -21,14 +21,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "YTheme One Dark",
+                "label": "YTheme Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/atom-one-dark-plus-color-theme.json"
+                "path": "./themes/ytheme-one-dark-plus-color-theme.json"
             },
             {
-                "label": "YTheme One Plus",
+                "label": "YTheme Light",
                 "uiTheme": "vs",
-                "path": "./themes/atom-light-plus-color-theme.json"
+                "path": "./themes/ytheme-light-plus-color-theme.json"
             }
         ]
     },

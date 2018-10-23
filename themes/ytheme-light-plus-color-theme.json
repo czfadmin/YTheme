@@ -1,5 +1,5 @@
 {
-	"name": "One Dark Plus",
+	"name": "YTheme Light",
 	"type": "light",
 	"colors": {
 		"foreground": "#111111",
@@ -23,7 +23,6 @@
 		"errorForeground": "#e40f0f",
 		"editor.background": "#f8f8f8",
 		"editorCursor.foreground": "#526FFF",
-		"editorGroup.background": "#EAEAEB",
 		"editorGroup.border": "#8b8bc5",
 		"editorGroupHeader.tabsBorder": "#b4b4b4d2",
 		"editorGroupHeader.tabsBackground": "#e2e2e2",
@@ -607,8 +606,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "white",
-				"background": "#FF1414"
+				"foreground": "#ffff",
 			}
 		},
 		{
