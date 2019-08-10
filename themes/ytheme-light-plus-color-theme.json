@@ -578,7 +578,8 @@
 				"underline"
 			],
 			"settings": {
-				"text-decoration": "underline"
+				"text-decoration": "underline",
+			
 			}
 		},
 		{
@@ -597,7 +598,7 @@
 			],
 			"settings": {
 				"foreground": "#000000",
-				"background": "#F2A60D"
+			
 			}
 		},
 		{

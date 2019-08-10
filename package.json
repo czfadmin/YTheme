@@ -2,7 +2,7 @@
     "name": "ytheme",
     "displayName": "YTheme",
     "description": "Themes based On Atom",
-    "version": "1.2.9",
+    "version": "1.2.10",
     "publisher": "zfuchen",
     "engines": {
         "vscode": "^1.28.0"
