@@ -107,8 +107,8 @@
     "terminal.ansiBlue": "#2f5581",
 		"terminal.foreground": "#bebebe",
 		"terminalCursor.foreground": "#2463b6",
-		"terminal.ansiBrightWhite": "#c5c5c5",
-    "terminal.ansiBrightBlack": "#424850"
+    "terminal.ansiBrightBlack": "#256b7a",
+		"terminal.ansiBrightWhite": "#bdbdbd",
   },
   "tokenColors": [
     {
