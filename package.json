@@ -2,7 +2,7 @@
 	"name": "ytheme",
 	"displayName": "YTheme",
 	"description": "Themes based On Atom",
-	"version": "1.2.22",
+	"version": "1.3.0",
 	"publisher": "czfadmin",
 	"engines": {
 		"vscode": "^1.28.0"
@@ -31,7 +31,7 @@
 				"path": "./themes/ytheme-light-plus-color-theme.json"
 			},
 			{
-				"label": "Cus Github Dark",
+				"label": "YTheme GDark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/ytheme-github-dark-color-theme.json"
 			}

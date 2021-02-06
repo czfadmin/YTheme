@@ -107,7 +107,7 @@
 		"editor.findMatchBackground": "#ffd33d44",
 		"editor.findMatchHighlightBackground": "#ffd33d22",
 		"editor.inactiveSelectionBackground": "#3392FF22",
-		"editor.selectionBackground": "#3392FF44",
+		"editor.selectionBackground": "#6161685d",
 		"editor.selectionHighlightBackground": "#17E5E633",
 		"editor.selectionHighlightBorder": "#17E5E600",
 		"editor.wordHighlightBackground": "#17E5E600",
@@ -150,7 +150,8 @@
 		"settings.headerForeground": "#e1e4e8",
 		"settings.modifiedItemIndicator": "#0366d6",
 		"welcomePage.buttonBackground": "#2f363d",
-		"welcomePage.buttonHoverBackground": "#444d56"
+		"welcomePage.buttonHoverBackground": "#444d56",
+		"widget.shadow": "#0008"
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
