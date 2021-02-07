@@ -1,6 +1,10 @@
 # CHANGELOG
 
-## 1.3.0
+## 1.3.1 2021.02.07
+
+增加 TXLight 主题
+
+## 1.3.0 2021.02.06
 
 Improved YTheme Dark theme
 
