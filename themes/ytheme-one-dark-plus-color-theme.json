@@ -27,12 +27,14 @@
 		"editor.foreground": "#cecece",
 		"editor.background": "#292935",
 		"editor.hoverHighlightBackground": "#4747556e",
-		"editorCursor.foreground": "#1c378d",
+		// editor cursor
+		"editorCursor.foreground": "#2a5cff",
+		"editorCursor.background": "#134aff",
+		// editor whitespace
 		"editorWhitespace.foreground": "#4b525b",
 		"editorBracketMatch.background": "#62a5b47f",
 		"editor.wordHighlightBackground": "#41404071",
 		"editor.selectionBackground": "#4b4b757a",
-		"editorCursor.background": "#1c378d",
 		"editorBracketMatch.border": "#a3aba5",
 		"editor.findMatchBackground": "#42557b",
 		"editorError.foreground": "#c24038",
