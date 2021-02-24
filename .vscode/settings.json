@@ -1,3 +1,7 @@
 {
-    "aliosStudio.sdkPath": "C:\\Users\\wwwch\\.aos\\AliOS-Things"
+	"aliosStudio.sdkPath": "C:\\Users\\wwwch\\.aos\\AliOS-Things",
+	"workbench.colorCustomizations": {
+		"[YTheme Light]": {},
+		"[YTheme Dark]": {}
+	},
 }
