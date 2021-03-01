@@ -72,6 +72,12 @@
 		"list.dropBackground": "#31365a96",
 		"list.hoverBackground": "#3c3f5270",
 		"list.activeSelectionBackground": "#6161685d",
+		// list filter
+		"listFilterWidget.outline": "#389c6d",
+		"list.filterMatchBorder": "#3b7966",
+		"list.filterMatchBackground": "#336d5ca1",
+		"listFilterWidget.background": "#383f64e5",
+		"listFilterWidget.noMatchesOutline": "#ff0000",
 		// sidebar
 		"sideBar.background": "#292935",
 		"sideBarSectionHeader.background": "#282c34",
