@@ -100,6 +100,7 @@
 		"tab.activeBorder": "#8802a3fb",
 		"tab.unfocusedActiveBorder": "#b1b1b1",
 		"tab.unfocusedActiveBorderTop": "#b1b1b1",
+		// Terminal
 		"terminal.ansiBrightYellow": "#d46b14",
 		// TitleBar
 		"titleBar.activeBackground": "#EAEAEB",
@@ -136,7 +137,7 @@
 		"menu.selectionBackground": "#8085a038",
 		"menu.selectionBorder": "#5c5f6038",
 		// quick Input
-		"quickInput.list.focusBackground": "#aec9dbad",
+		"quickInputList.focusBackground": "#aec9dbad",
 		// Sash
 		"sash.hoverBorder": "#52accf",
 	},

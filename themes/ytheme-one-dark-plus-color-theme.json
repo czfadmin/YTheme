@@ -586,7 +586,8 @@
 			"name": "python function-call.generic",
 			"scope": "meta.function-call.generic.python",
 			"settings": {
-				"foreground": "#61AFEF"
+				"foreground": "#61AFEF",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -728,7 +729,7 @@
 			"name": "Python Keyword Control",
 			"scope": "keyword.control.import.python,keyword.control.flow.python",
 			"settings": {
-				"fontStyle": "italic"
+				// "fontStyle": "italic"
 			}
 		},
 		{
@@ -1748,14 +1749,14 @@
 			"scope": "variable.parameter.function.language.special.self.python",
 			"settings": {
 				"foreground": "#cf96d3",
-				"fontStyle": "italic"
+				// "fontStyle": "italic"
 			}
 		},
 		{
 			"name": "variable.parameter.function.language.python",
 			"scope": "variable.parameter.function.language.python",
 			"settings": {
-				"fontStyle": "italic"
+				// "fontStyle": "italic"
 			}
 		},
 		{
@@ -1767,7 +1768,7 @@
 				"support.function.magic.python"
 			],
 			"settings": {
-				"fontStyle": "italic"
+				// "fontStyle": "italic"
 			}
 		},
 		{
