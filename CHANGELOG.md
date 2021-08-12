@@ -1,9 +1,9 @@
 # CHANGELOG
-
+## 1.3.6 2021.08.12
+修改Light 主题下的控制台颜色为黑色的问题
 ## 1.3.1 2021.02.07
 
 增加 TXLight 主题
-
 ## 1.3.0 2021.02.06
 
 Improved YTheme Dark theme
