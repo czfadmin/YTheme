@@ -2,7 +2,7 @@
   "name": "ytheme",
   "displayName": "YTheme",
   "description": "Themes based On Atom",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "publisher": "czfadmin",
   "engines": {
     "vscode": "^1.28.0"
@@ -19,6 +19,31 @@
   },
   "icon": "icon.png",
   "contributes": {
+    "languages": [
+      {
+        "id": "Mermaid",
+        "extensions": [
+          ".nmd"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "Mermaid",
+        "scopeName": "markdown.mermaid.codeblock",
+        "path": "./out/mermaid.tmLanguage.json"
+      },
+      {
+        "scopeName": "markdown.mermaid.codeblock",
+        "path": "./out/mermaid.tmLanguage.json",
+        "injectTo": [
+          "text.html.markdown"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.mermaid": "Mermaid"
+        }
+      }
+    ],
     "themes": [
       {
         "label": "YTheme Dark",
@@ -49,5 +74,16 @@
     "one dark plus",
     "YTheme",
     "Github Dark"
-  ]
+  ],
+  "scripts": {
+    "publish": "npm run vscode:prepublish && vsce publish",
+    "package": "npm run vscode:prepublish && vsce package",
+    "vscode:prepublish": "npm run convertYaml",
+    "convertYaml": "node build/ConvertYaml.js"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "js-yaml": "^3.13.1",
+    "yaml-import": "^2.0.0"
+  }
 }
