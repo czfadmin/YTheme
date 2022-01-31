@@ -906,7 +906,6 @@
 			"name": "Headings",
 			"scope": "markup.heading",
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#ef596f"
 			}
 		},
@@ -1013,8 +1012,7 @@
 			"name": "[VSCODE-CUSTOM] Markdown Quote",
 			"scope": "markup.quote.markdown",
 			"settings": {
-				"foreground": "#5C6370",
-				"fontStyle": "italic"
+				"foreground": "#5C6370"
 			}
 		},
 		{

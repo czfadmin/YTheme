@@ -1549,8 +1549,7 @@
       "name": "[VSCODE-CUSTOM] Markdown Quote",
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#A0A1A7",
-        "fontStyle": "italic"
+        "foreground": "#A0A1A7"
       }
     },
     {
