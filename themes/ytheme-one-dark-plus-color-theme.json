@@ -25,7 +25,7 @@
 		"diffEditor.insertedTextBackground": "#00809B33",
 		// editor
 		"editor.foreground": "#cecece",
-		"editor.background": "#292935",
+		"editor.background": "#2a2a31",
 		"editor.hoverHighlightBackground": "#4747556e",
 		// editor cursor
 		"editorCursor.foreground": "#2a5cff",
@@ -60,9 +60,13 @@
 		"editorHoverWidget.background": "#2d333ffa",
 		"editorHoverWidget.border": "#40434d",
 		// editor group
-		"editorGroup.border": "#28507e",
+		"editorGroup.border": "#515582",
 		"editorGroupHeader.tabsBorder": "#314a5f",
 		"editorGroup.emptyBackground": "#1c273191",
+		"editorGroup.dropBackground": "#5155823a",
+    "editorGroup.dropIntoPromptBackground": "#25262a",
+    "editorGroup.dropIntoPromptBorder": "#515582",
+    "editorGroup.dropIntoPromptForeground": "#ffffff",
 		// list
 		"list.activeSelectionForeground": "#d7dae0",
 		"list.focusBackground": "#383E4A",
@@ -142,8 +146,8 @@
 		//activityBar
 		"activityBar.activeBackground": "#4b4e57d0",
 		// windows
-		"window.activeBorder": "#494e81e3",
-		"window.inactiveBorder": "#a75f01",
+		"window.activeBorder": "#6973de",
+		"window.inactiveBorder": "#303462",
 		// widget
 		"widget.shadow": "#0008",
 		// scrollbar
@@ -152,7 +156,14 @@
 		"scrollbarSlider.activeBackground": "#747D9180",
 		"scrollbarSlider.hoverBackground": "#5A637580",
 		// Gutter
-		"editorGutter.background": "#2a2a3b",
+		"editorGutter.background": "#2c2c39",
+
+
+  
+
+
+    
+  
 	},
 	"tokenColors": [
 		{
