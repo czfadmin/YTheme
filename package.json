@@ -81,7 +81,7 @@
     "vscode:prepublish": "npm run convertYaml",
     "convertYaml": "node build/ConvertYaml.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "fs-extra": "^10.0.0",
     "js-yaml": "^3.13.1",
     "yaml-import": "^2.0.0"
