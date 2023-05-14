@@ -2,8 +2,9 @@
   "name": "ytheme",
   "displayName": "YTheme",
   "description": "Themes based On Atom",
-  "version": "1.3.12",
+  "version": "1.3.13",
   "publisher": "czfadmin",
+  "author": "czfadmin",
   "engines": {
     "vscode": "^1.28.0"
   },
