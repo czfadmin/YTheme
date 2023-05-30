@@ -2,7 +2,7 @@
   "name": "ytheme",
   "displayName": "YTheme",
   "description": "Themes based On Atom",
-  "version": "1.3.13",
+  "version": "1.3.14",
   "publisher": "czfadmin",
   "author": "czfadmin",
   "engines": {
@@ -47,6 +47,11 @@
     ],
     "themes": [
       {
+        "label": "YTheme GDark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ytheme-github-dark-color-theme.json"
+      },
+      {
         "label": "YTheme Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/ytheme-one-dark-plus-color-theme.json"
@@ -55,11 +60,6 @@
         "label": "YTheme Light",
         "uiTheme": "vs",
         "path": "./themes/ytheme-light-plus-color-theme.json"
-      },
-      {
-        "label": "YTheme GDark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ytheme-github-dark-color-theme.json"
       },
       {
         "label": "YTheme TXLight",
