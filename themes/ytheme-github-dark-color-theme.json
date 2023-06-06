@@ -13,7 +13,7 @@
     "textPreformat.foreground": "#d1d5da",
     "textSeparator.foreground": "#586069",
     "button.background": "#3f8330",
-    "button.foreground": "#dcffe4",
+    "button.foreground": "#c9e8d1",
     "button.hoverBackground": "#22863a",
     "checkbox.background": "#444d56",
     "checkbox.border": "#1b1f23",
@@ -99,24 +99,26 @@
     "editorWidget.background": "#1f2428",
     "editor.foldBackground": "#283f505e",
     "editorLineNumber.activeForeground": "#5fc7b0",
-    "editor.lineHighlightBackground": "#66898331",
-    "editor.lineHighlightBorder": "#385d553d",
+    "editor.lineHighlightBackground": "#39414a86",
+    "editor.lineHighlightBorder": "#39414ae4",
+    "editor.selectionBackground": "#39414ae4",
+    "editor.findMatchBackground": "#454d54a1",
+    "editor.findMatchBorder": "#639bd2e4",
+    "editor.findMatchHighlightBackground": "#4554617d",
+    "editor.findMatchHighlightBorder": "#639bd2e4",
+    "editor.wordHighlightBackground": "#454d54a1",
+    "editor.wordHighlightBorder": "#639bd2e4",
+    "editor.wordHighlightStrongBorder": "#454d54a1",
+    "editorBracketMatch.background": "#a9c7c750",
+    "editor.selectionHighlightBackground": "#454d54a1",
+    "editor.selectionHighlightBorder": "#3d93e9",
     "editorLineNumber.foreground": "#5f6161",
     "editorIndentGuide.background": "#2f363d",
     "editorIndentGuide.activeBackground": "#444d56",
-    "editorWhitespace.foreground": "#444d56",
+    "editorWhitespace.foreground": "#545f5f",
     "editorCursor.foreground": "#c8e1ff",
-    "editor.findMatchBackground": "#ffd33d44",
-    "editor.findMatchHighlightBackground": "#ffd33d22",
     "editor.inactiveSelectionBackground": "#3392FF22",
-    "editor.selectionBackground": "#2f5c7f65",
-    "editor.selectionHighlightBackground": "#17E5E633",
-    "editor.selectionHighlightBorder": "#5fc7b0",
-    "editor.wordHighlightBackground": "#17E5E600",
     "editor.wordHighlightStrongBackground": "#17E5E600",
-    "editor.wordHighlightBorder": "#17E5E699",
-    "editor.wordHighlightStrongBorder": "#17E5E666",
-    "editorBracketMatch.background": "#17E5E650",
     "editorBracketMatch.border": "#17E5E600",
     "editorGutter.modifiedBackground": "#2188ff",
     "editorGutter.addedBackground": "#28a745",
@@ -315,7 +317,7 @@
     {
       "scope": ["source.regexp", "string.regexp"],
       "settings": {
-        "foreground": "#dbedff"
+        "foreground": "#67a3ac"
       }
     },
     {
@@ -326,7 +328,7 @@
         "string.regexp string.regexp.arbitrary-repitition"
       ],
       "settings": {
-        "foreground": "#dbedff"
+        "foreground": "#67a3ac"
       }
     },
     {
@@ -497,12 +499,14 @@
     },
     {
       "scope": [
-        "punctuation.definition.tag.end",
-        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag",
+        "punctuation.definition.tag",
         "punctuation.terminator.statement",
         "punctuation.separator.comma",
         "punctuation.separator.key-value",
         "punctuation.terminator.rule",
+        "punctuation.definition.comment.ini",
+        "punctuation.separator.array.json.comment",
         "meta.property-value"
       ],
       "settings": {
