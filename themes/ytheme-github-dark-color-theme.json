@@ -138,7 +138,7 @@
     "gitDecoration.addedResourceForeground": "#2ea614",
     "gitDecoration.modifiedResourceForeground": "#79b8ff",
     "gitDecoration.deletedResourceForeground": "#ea4a5a",
-    "gitDecoration.untrackedResourceForeground": "#428756",
+    "gitDecoration.untrackedResourceForeground": "#95c9a0",
     "gitDecoration.ignoredResourceForeground": "#6a737d",
     "gitDecoration.conflictingResourceForeground": "#ffab70",
     "gitDecoration.submoduleResourceForeground": "#6a737d",
@@ -177,7 +177,6 @@
     "list.focusAndSelectionOutline": "#345576",
     "list.focusOutline": "#345576", 
     "list.focusBackground": "#32373dc7",
-    // "list.focusHighlightForeground": "#1792fd",
     "list.hoverBackground": "#32373dc7",
 
     // section
