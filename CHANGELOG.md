@@ -1,5 +1,13 @@
 # CHANGELOG
+
+## 1.3.19
+
+### Patch Changes
+
+- 修改`editorRuler.forground`配置
+
 ## 1.3.8 2022.01.31
+
 添加 Mermaid 语法高亮
 
 ## 1.3.7 2022-01-08
