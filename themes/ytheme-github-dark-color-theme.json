@@ -92,7 +92,7 @@
     // EDITOR
     "editor.foreground": "#e1e4e8",
     "editor.background": "#24292e",
-    "editorRuler.foreground": "#85be7771",
+    "editorRuler.foreground": "#4078324d",
     "editorWidget.background": "#1f2428",
     "editor.foldBackground": "#283f505e",
     "editorGroupHeader.tabsBackground": "#1f2428",
