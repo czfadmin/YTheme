@@ -2,6 +2,29 @@
 	"name": "YTheme TXLight",
 	"type": "light",
 	"colors": {
+		// notebook
+		"notebook.cellBorderColor": "#d1d1d1",
+		"notebook.cellHoverBackground": "#f0f0f0",
+		"notebook.cellInsertionIndicator": "#3e9ca3",
+		"notebook.cellStatusBarItemHoverBackground": "#d8d8d8",
+		"notebook.cellToolbarSeparator": "#d1d1d1",
+		"notebook.focusedCellBackground": "#f5f5f5",
+		"notebook.focusedCellBorder": "#3e9ca3",
+		"notebook.focusedEditorBorder": "#3e9ca3",
+		"notebook.inactiveFocusedCellBorder": "#d1d1d1",
+		"notebook.selectedCellBackground": "#f0f0f0",
+		"notebook.symbolHighlightBackground": "#e8e8e8",
+		"notebookScrollbarSlider.activeBackground": "#3e9ca3cc",
+		"notebookScrollbarSlider.background": "#5A637566",
+		"notebookScrollbarSlider.hoverBackground": "#44989e66",
+		"notebookStatusErrorIcon.foreground": "#e40f0f",
+		"notebookStatusRunningIcon.foreground": "#3e9ca3",
+		"notebookStatusSuccessIcon.foreground": "#327c2f",
+		
+		// notebook output
+		"notebook.outputContainerBackgroundColor": "#f0f0f0",
+		"notebook.outputContainerBorderColor": "#e0e0e0",
+		
 		// global
 		"foreground": "#111111",
 		// active bar

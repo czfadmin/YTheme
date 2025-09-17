@@ -2,7 +2,7 @@
   "name": "ytheme",
   "displayName": "YTheme",
   "description": "Themes based On Atom",
-  "version": "1.3.20",
+  "version": "1.3.21",
   "publisher": "czfadmin",
   "author": "czfadmin",
   "engines": {
@@ -77,15 +77,14 @@
     "Github Dark"
   ],
   "scripts": {
-    "publish": "npm run vscode:prepublish && vsce publish",
-    "package": "npm run vscode:prepublish && vsce package",
-    "vscode:prepublish": "npm run convertYaml",
+    "publish": "vsce publish",
+    "package": "vsce package",
     "convertYaml": "node build/ConvertYaml.js"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.2",
-    "fs-extra": "^10.0.0",
-    "js-yaml": "^3.13.1",
-    "yaml-import": "^2.0.0"
+    "@changesets/cli": "^2.29.7",
+    "fs-extra": "^11.3.1",
+    "js-yaml": "^4.1.0",
+    "yaml-import": "^3.0.0"
   }
 }

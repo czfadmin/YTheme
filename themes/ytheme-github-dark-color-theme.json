@@ -1,7 +1,8 @@
 {
   "name": "GitHub Dark",
   "colors": {
-    "focusBorder": "#3f8330",
+    "focusBorder": "#46a293",
+    "notebook.inactiveSelectedCellBorder":"#409eff",
     "foreground": "#d1d5da",
     "descriptionForeground": "#959da5",
     "errorForeground": "#f97583",
@@ -83,7 +84,7 @@
     "tab.unfocusedActiveBorderTop": "#1b1f23",
     "tab.activeBorder": "#24292e",
     "tab.unfocusedActiveBorder": "#24292e",
-    "tab.activeBorderTop": "#f9826c",
+    "tab.activeBorderTop": "#46a293",
     // BREADCRUMB
     "breadcrumb.foreground": "#959da5",
     "breadcrumb.focusForeground": "#e1e4e8",
@@ -185,7 +186,27 @@
     "list.hoverBackground": "#32373dc7",
 
     // section
-    "selection.background": "#454b51c7"
+    "selection.background": "#454b51c7",
+
+    // Notebook specific
+    "notebook.cellBorderColor": "#31463f",
+    "notebook.selectedCellBorder":"#1d6763c7",
+    "notebook.cellHoverBackground": "#185c5155",
+    "notebook.cellInsertionIndicator": "#407169",
+    "notebook.cellStatusBarItemHoverBackground": "#2f363d",
+    "notebook.cellToolbarSeparator": "#15554a",
+    "notebook.focusedCellBackground": "#157e6d72",
+    "notebook.focusedCellBorder": "#46a293",
+    "notebook.focusedEditorBorder": "#46a293",
+    "notebook.inactiveFocusedCellBorder": "#444d56",
+    "notebook.selectedCellBackground": "#235b94",
+    "notebook.symbolHighlightBackground": "#2f363d",
+    "notebookStatusErrorIcon.foreground": "#ea4a5a",
+    "notebookStatusRunningIcon.foreground": "#2188ff",
+    "notebookStatusSuccessIcon.foreground": "#28a745",
+    "notebook.outputContainerBackgroundColor": "#191d24c0",
+    "notebook.outputContainerBorderColor": "#46a293"
+    
   },
   "semanticHighlighting": true,
   "tokenColors": [

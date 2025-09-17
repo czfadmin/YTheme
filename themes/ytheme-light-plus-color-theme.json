@@ -140,7 +140,28 @@
     // quick Input
     "quickInputList.focusBackground": "#aec9dbad",
     // Sash
-    "sash.hoverBorder": "#52accf"
+    "sash.hoverBorder": "#52accf",
+
+    // Notebook specific
+    "notebook.cellBorderColor": "#e2e2e2",
+    "notebook.cellHoverBackground": "#f5f5f5",
+    "notebook.cellInsertionIndicator": "#7784c7",
+    "notebook.cellStatusBarItemHoverBackground": "#e8e8e8",
+    "notebook.cellToolbarSeparator": "#e2e2e2",
+    "notebook.focusedCellBackground": "#f8f8f8",
+    "notebook.focusedCellBorder": "#7784c7",
+    "notebook.focusedEditorBorder": "#7784c7",
+    "notebook.inactiveFocusedCellBorder": "#e2e2e2",
+    "notebook.selectedCellBackground": "#f5f5f5",
+    "notebook.symbolHighlightBackground": "#f0f0f0",
+    "notebookScrollbarSlider.activeBackground": "#747D9180",
+    "notebookScrollbarSlider.background": "#4E566660",
+    "notebookScrollbarSlider.hoverBackground": "#5A637580",
+    "notebookStatusErrorIcon.foreground": "#e40f0f",
+    "notebookStatusRunningIcon.foreground": "#4e7db3",
+    "notebookStatusSuccessIcon.foreground": "#3f854d",
+    "notebook.outputContainerBackgroundColor": "#f5f5f5",
+    "notebook.outputContainerBorderColor": "#e2e2e2"
   },
   "tokenColors": [
     {
